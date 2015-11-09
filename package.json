@@ -1,0 +1,22 @@
+{
+  "name": "perfectyang",
+  "version": "1.0.0",
+  "description": "this is test package",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/perfectyang.git"
+  },
+  "keywords": [
+    "perfectyang"
+  ],
+  "author": "perfectyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/perfectyang/issues"
+  },
+  "homepage": "https://github.com/github.com/perfectyang#readme"
+}
