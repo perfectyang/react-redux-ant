@@ -4,7 +4,9 @@ var   http = require("http");
 tools.init();
 
 var yang = {
-	say : function(){}
+	say : function(){
+		alert("i am master");
+	}
 };
 
 http.createServer(function (request, response) {
