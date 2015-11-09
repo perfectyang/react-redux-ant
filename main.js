@@ -5,8 +5,13 @@ tools.init();
 
 var yang = {
  
+ 
 	test : function(){
 		alert("3333");
+      },
+ 
+	say : function(){
+		alert("i am new Master master");
  
 	}
 };
