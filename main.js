@@ -4,8 +4,10 @@ var   http = require("http");
 tools.init();
 
 var yang = {
+ 
 	test : function(){
 		alert("3333");
+ 
 	}
 };
 
