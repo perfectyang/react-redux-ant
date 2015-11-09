@@ -4,7 +4,7 @@ var   http = require("http");
 tools.init();
 
 var yang = {
-	say : function(){}
+	test : function(){}
 };
 
 http.createServer(function (request, response) {
