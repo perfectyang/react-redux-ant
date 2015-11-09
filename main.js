@@ -3,6 +3,10 @@ var   fs = require("fs");
 var   http = require("http");
 tools.init();
 
+var yang = {
+	say : function(){}
+};
+
 http.createServer(function (request, response) {
     response.writeHead(200, { 'Content-Type': 'text-plain' });
     response.end('asdfads World\n');
