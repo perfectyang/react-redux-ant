@@ -5,7 +5,7 @@ tools.init();
 
 var yang = {
 	say : function(){
-		alert("i am master");
+		alert("i am new Master master");
 	}
 };
 
