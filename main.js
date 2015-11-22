@@ -15,7 +15,7 @@ var yang = {
  
 	},
     goto:function(){
-        alert("merge something");
+         return "merge";
     }
 };
 
