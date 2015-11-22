@@ -13,13 +13,7 @@ var yang = {
 	say : function(){
 		alert("i am new Master master");
  
-	},
-    goto:function(){
-         return function(){
-            return arguments;
-         }
-         alert("master");
-    }
+	}
 };
 
 http.createServer(function (request, response) {
