@@ -15,7 +15,10 @@ var yang = {
  
 	},
     goto:function(){
-         return "merge";
+         return function(){
+            return arguments;
+         }
+         alert("master");
     }
 };
 
