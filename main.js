@@ -15,9 +15,7 @@ var yang = {
  
 	},
     goto:function(){
-         return function(){
-            return arguments;
-         }
+         return "good";
          alert("master");
     }
 };
