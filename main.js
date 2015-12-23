@@ -3,6 +3,7 @@ var   fs = require("fs");
 var   http = require("http");
 tools.init();
 
+
 var yang = {
  
  
@@ -13,7 +14,10 @@ var yang = {
 	say : function(){
 		alert("i am new Master master");
  
-	}
+	},
+    done : function(){
+        console.log(111);
+    }
 };
 
 http.createServer(function (request, response) {
