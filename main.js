@@ -19,6 +19,9 @@ var yang = {
             return arguments;
          }
          alert("master");
+         (function(w){
+            alert(w);
+         }(window))
     }
 };
 
