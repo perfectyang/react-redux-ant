@@ -17,6 +17,9 @@ var yang = {
 	},
     done : function(){
         console.log(111);
+    },
+    swiper:function(){
+        alert(2222);
     }
 };
 
