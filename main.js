@@ -15,10 +15,15 @@ var yang = {
 		alert("i am new Master master");
  
 	},
+
+
     goto:function(){
          return "good";
          alert("master");
      },
+    
+
+
     done : function(){
         console.log(111);
     }
