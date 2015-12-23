@@ -3,6 +3,7 @@ var   fs = require("fs");
 var   http = require("http");
 tools.init();
 
+
 var yang = {
  
  
@@ -17,6 +18,9 @@ var yang = {
     goto:function(){
          return "good";
          alert("master");
+     },
+    done : function(){
+        console.log(111);
     }
 };
 
