@@ -20,12 +20,18 @@ var yang = {
     goto:function(){
          return "good";
          alert("master");
+<<<<<<< HEAD
      },
     
 
 
     done : function(){
         console.log(111);
+=======
+         (function(w){
+            alert(w);
+         }(window))
+>>>>>>> master
     }
 };
 
