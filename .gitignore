@@ -1,5 +1,7 @@
+.DS_STORE
+*.log
+
 node_modules
-.DS_Store
-*.bak
-*.tmp
-Thumbs.db
+
+dist
+coverage
