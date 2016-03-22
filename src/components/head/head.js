@@ -8,10 +8,7 @@ export class List extends React.Component<void, Props, void> {
       <div className="ant-layout-header">
         <div className="ant-layout-wrapper">
         <Row style={{background:'#444444'}}>
-          <Col span='14' offset='1'>
-            <div>logo</div>
-          </Col>
-          <Col span='6' offset='1'>
+          <Col span='24'>
             <Menu theme="dark" mode="horizontal"
             defaultSelectedKeys={['2']} style={{lineHeight: '64px'}}>
             <Menu.Item key="1"><Link to='/list'>首页</Link></Menu.Item>
@@ -22,8 +19,6 @@ export class List extends React.Component<void, Props, void> {
           </Menu>
           </Col>
         </Row>
-
-          
         </div>
       </div>
     )

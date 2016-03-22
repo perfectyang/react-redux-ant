@@ -12,7 +12,7 @@ import list from 'views/List/list'
 
 export default (store) => (
   <Route path='/' component={CoreLayout}>
-    <IndexRoute component={HomeView} />
+    <IndexRoute component={list} />
     <Route path='list' component={list} />
   </Route>
 )

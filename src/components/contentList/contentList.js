@@ -19,7 +19,7 @@ export class contentList extends React.Component<void, Props, void> {
                     <img style={{float:'left'}} src={item.author.avatar_url} width='30' height='30' title={item.title} />
                   <div className={classes['pull-left']}>
                       {item.reply_count}/{item.visit_count} 
-                  </div>    
+                  </div>
                   <div className={classes['pull-left']}>
                   <a class='topic_title' title={item.title}>
                       {item.title}

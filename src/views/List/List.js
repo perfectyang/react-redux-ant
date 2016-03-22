@@ -21,23 +21,17 @@ const styles = {
 }
 
 type Props = {
-  getInitData : Function
+  getInitData : Function,
+  List: Array
 };
 export class ListView extends React.Component<void, Props, void> {
   static propTypes = {
-   getInitData: PropTypes.func.isRequired
+   getInitData: PropTypes.func.isRequired,
+   List: PropTypes.array.isRequired
   }
   constructor (Props) {
     super(Props)
     this.props.getInitData({})
-  }
-  onShowSizeChange (current, pageSize) {
-    alert(11)
-    console.log('cureeent', current)
-    console.log('pageSize', pageSize)
-  }
-  currentPage (current) {
-    console.log('cureeent22', current)
   }
   sorts = (srotTitle) => {
     this.props.getInitData({
@@ -47,6 +41,7 @@ export class ListView extends React.Component<void, Props, void> {
   render () {
     console.log('thst;astg', this.props)
     const that = this
+    const totalCount = this.props.List.allList.length
     return (
      <div>
         <Head /> 
@@ -63,7 +58,7 @@ export class ListView extends React.Component<void, Props, void> {
                   </div>
                   <ContentList  articleList={this.props.List.allList} />
                   <div style={{margin: 20}}>
-                    <Pagination />
+                    <Pagination  selectPage={this.props.getInitData} totalCount={totalCount}/>
                   </div>
                 </div>
               </Col>
